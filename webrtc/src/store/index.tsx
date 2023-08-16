@@ -3,11 +3,11 @@ import { configureStore, combineReducers } from '@reduxjs/toolkit';
 // const rootReducer = combineReducers({
 
 // })
-interface InitialState {
+// interface InitialState {
 
-}
+// }
 
 
-export const store = configureStore({
+// export const store = configureStore({
 
-})
+// })
