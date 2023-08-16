@@ -11,6 +11,8 @@
 // }
 
 // let init = async () => {
+// get server function, login here
+
 // This asks the browser for permission to access video and audio
 //   localStream = await navigator.mediaDevices.getUserMedia({video: true, audio: false})
 //   document.getElementById('id').srcObject = localStream;
@@ -36,10 +38,14 @@
 //   if (event.candidate) {
 //     console.log("New ICE Candidate:", event.candidate)
 //   }
-// } // shows wwhen new ICE connects
+// } // shows wwhen new ICE connects, they will send SDP (session description protocol) upon connect
 
-  // let offer = await peerConnection.createOffer();  // every peerConnection will have offer and answer
+// let offer = await peerConnection.createOffer();  // every peerConnection will have offer and answer
 
-  // await peerConnection.setLocalDescription(offer); // when localdescription is set, will trigger onicecandidate
+// await peerConnection.setLocalDescription(offer); // when localdescription is set, will trigger onicecandidate
 
 // }
+//
+
+// build out websocket server
+export {}
